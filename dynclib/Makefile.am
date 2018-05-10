@@ -1,0 +1,2 @@
+lib_LTLIBRARIES=libusercommonappdync.la
+libusercommonappdync_la_SOURCES=userloginapp.c

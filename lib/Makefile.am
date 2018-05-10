@@ -1,0 +1,2 @@
+noinst_LIBRARIES=libusercommon.a
+libusercommon_a_SOURCES=usercommon.c

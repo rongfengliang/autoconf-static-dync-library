@@ -1,0 +1,1 @@
+extern int  usertype(char *userid);
