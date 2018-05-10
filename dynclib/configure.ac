@@ -17,5 +17,5 @@ AC_PROG_CC
 
 # Checks for library functions.
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile usercommondync.pc])
 AC_OUTPUT
