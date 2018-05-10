@@ -5,3 +5,6 @@ includedir=${prefix}/include/usercommonappdync
 
 Name: libusercommonappdync
 Description: usercommonappdync filters
+Requires: 
+Version: 0.0.1
+Libs: -L${libdir} -lusercommonappdync

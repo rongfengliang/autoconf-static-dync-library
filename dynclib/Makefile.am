@@ -1,4 +1,6 @@
 lib_LTLIBRARIES=libusercommonappdync.la
+libusercommonappdync_includedir= $(includedir)/userloginapp
+libusercommonappdync_include_HEADERS=userloginapp.h
 libusercommonappdync_la_SOURCES=userloginapp.c
 pkgconfigdir=$(libdir)/pkgconfig
 pkgconfig_DATA= usercommondync.pc
