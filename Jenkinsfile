@@ -33,7 +33,7 @@ pipeline {
     }
     stage('autoreconf  dynclib make && install') {
       steps {
-        sh 'cd dynclib && make && make install  '
+        sh 'cd dynclib && make && make install'
       }
     }
     stage('autoreconf src ') {
